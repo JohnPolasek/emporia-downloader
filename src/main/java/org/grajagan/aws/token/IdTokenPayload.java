@@ -39,4 +39,5 @@ public class IdTokenPayload extends TokenPayload {
     @JsonProperty("cognito:username")
     private String cognitoUsername;
     private String aud;
+    private String website;
 }
